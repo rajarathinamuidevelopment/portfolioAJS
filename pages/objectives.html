@@ -1,0 +1,19 @@
+<h2>Objectives</h2>
+<ul ng-show="{{objectives_click}}">
+    <li class="level-primary" ng-repeat="key in objectKeys(profile.objectives)" ng-init="value = profile.objectives[key]">
+        <h3>{{key}}</h3>
+        <ul>
+            <li class="level-secondary" ng-repeat="key in objectKeys(value)" ng-init="value = value[key]">
+                <h4><strong>{{key}}</strong></h4>
+                <div ng-show="isArray({{value}})">{{value}}</div>
+                <ul>
+                    <li ng-repeat="key in objectKeys(value)" ng-init="value = value[key]">
+                        <div>{{value}}</div>
+                        
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    
+</ul>

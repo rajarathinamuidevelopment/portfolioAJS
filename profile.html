@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+
+<html ng-app="myApp" ng-controller="profileController" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="stylesheet" type="text/css" href="CSS/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="CSS/custom.css"/>
+    <link rel="stylesheet" type="text/css" href="CSS/style.css"/>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+    <script src="JS/jQuery.js"></script>
+    <script src="JS/angular.min.js"></script>
+    <script src="JS/angular-route.min.js"></script>
+    <script src="JS/bootstrap.min.js"></script>
+    <script src="JS/app.js"></script>
+    <title>Profile {{name}}</title>
+</head>
+<body class="bg-info">
+    
+<div class="bg-primary navbar navbar-fixed-top">
+   
+    <div class="container">
+    	<div class = "navbar-header">
+	      <button type = "button" class = "navbar-toggle" 
+	         data-toggle = "collapse" data-target = "#collapse">	         
+	         <span class = "icon-bar"></span>
+	         <span class = "icon-bar"></span>
+	         <span class = "icon-bar"></span>
+	      </button>			
+	      <div>
+		      <h1 class="m-t m-b-0 header-txt">{{name}}</h1>
+		      <h3 class="m-t header-txt">{{jobtitle}}</h3>
+	      </div>  
+	   </div>
+    	<div class = "collapse navbar-collapse" id = "collapse">
+	         <ul class="nav navbar-nav" style="margin-top: 50px">
+	            <li ng-repeat="key in objectKeys(profile)"><a href="#{{key}}">{{key | capitalize}}</a></li>
+	        </ul>
+	         
+        </div>
+    </div>        
+</div>
+<div class="objectives-container">
+    <div class="container">        
+         <div ng-view></div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,13 @@
+<h2>Achievements & Awards</h2>
+<ul>
+    <li class="level-secondary" ng-repeat="key in objectKeys(profile.Achievements)" ng-init="value = profile.Achievements[key]">
+        <h4><strong>{{key}}</strong></h4>
+        <div ng-show="isArray({{value}})">{{value}}</div>
+        <ul>
+            <li ng-repeat="key in objectKeys(value)" ng-init="value = value[key]">
+                <div>{{value}}</div>
+                
+            </li>
+        </ul>
+    </li>
+</ul>

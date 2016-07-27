@@ -1,0 +1,7 @@
+﻿<h2>Personal Details</h2>
+<table class="table">
+    <tr ng-repeat="key in objectKeys(profile.Personal)" ng-init="value = profile.Personal[key]">
+      <td style="font-weight:bold">{{key}}</td>
+      <td>{{value}}</td>
+ </tr>
+</table>

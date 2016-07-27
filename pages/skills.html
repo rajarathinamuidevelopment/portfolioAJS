@@ -1,0 +1,12 @@
+﻿<h2>Skills</h2>
+<ul>
+    <li class="level-secondary" ng-repeat="key in objectKeys(profile.Skills)" ng-init="value = profile.Skills[key]" style="clear: both;">
+        <h4><strong>{{key}}</strong></h4>
+        <div ng-show="isArray({{value}})">{{value}}</div>
+        <ul class="education">
+            <li ng-repeat="key in objectKeys(value)" ng-init="value = value[key]" class="bg-warning education">
+                <a href="https://en.wikipedia.org/wiki/{{value}}">{{value}}</a>
+            </li>
+        </ul>
+    </li>
+</ul>

@@ -1,0 +1,35 @@
+﻿<section class="projectpage">
+  <div class="search">
+    <h1 class="m-t-0">Projects</h1>
+    <label>search: </label>
+    <input ng-model="query" placeholder="Search for Project Example: HTML, Flash, Photoshop, Angular JS, D3 JS... " autofocus>
+    <label class="formgroup">
+      <input type="checkbox" ng-model="checkboxModel.web" ng-true-value="'Web Based'" ng-false-value="''">
+      Web Based
+     </label>
+    <label class="formgroup">
+      <input type="checkbox" ng-model="checkboxModel.D3" ng-true-value="'Mobile and Tablet'" ng-false-value="''">
+      Mobile and Tablet 
+    </label>
+      <label class="formgroup">
+      <input type="checkbox" ng-model="checkboxModel.Design" ng-true-value="'Web Design'" ng-false-value="''">
+      Web design 
+    </label>
+   
+  </div>
+  <ul class="projectlist">
+    <li class="project cf"  ng-repeat="Project in profile.Projects | filter: query | filter: checkboxModel.web | filter: checkboxModel.D3| filter: checkboxModel.Design:base" style="clear: both; padding-bottom:10px;">            
+        <div class="info">
+            <h2>{{Project.name}}</h2>
+            <h3>Team size: {{Project.teamsize}}</h3>
+            <h4>Role & Resposiblity: {{Project.rr}}</h4>
+            <p>{{Project.desc}}</p>
+            <ul class="education">
+                <li ng-repeat="value in Project.tools" class="bg-warning education">
+                    <a href="https://en.wikipedia.org/wiki/{{value}}">{{value}}</a>
+                </li>
+            </ul>
+        </div>
+    </li>
+  </ul>  
+</section>

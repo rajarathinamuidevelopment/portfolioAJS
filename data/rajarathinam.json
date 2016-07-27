@@ -1,0 +1,343 @@
+﻿{
+		   
+	"objectives": {
+		"Job is my job": {
+			"Job Impact": ["Impacts project performance by contributing to high level UX, UI and Prototype design achieved primarily through personal efforts in implementation and high level design activity, working closely with teams, providing some mentoring and act as first point of contact for any technical issue on the assigned work."],
+			"Scope": ["Performs large size infrastructure management or programming tasks with high level of complexity. Performs analysis, writes program specifications and develops designs for large size projects."],
+			"Decision-Making Authority": ["Mentors team on application and technology and aware of team's strengths and weaknesses. Create WBS and maps to team members."]
+		},
+		"Responsibilities And Tasks": {
+			"Software development life cycle ": [
+			"Work on fairly complex programming, applications systems analysis and support project.",
+			"Regularly leads small or medium size projects to develop or deploy solutions.",
+			"Interacts with onshore teams (Business/ IT) to understand system requirements and co-relate with business scope",
+			"Responsible for all technical solution for a given project or a module",
+			"Involved in software development and maintenance activities."
+			],
+			"Infrastructure Management Product Support": [
+			"Works on the most complex projects.",
+			"Interacts with Software development life cycle and onshore teams (Business/ IT) to understand infrastructure requirement and co-relate with business scope.",
+			"Responsible for all technical solutions for a given project or a module.",
+			"Ensures conformance with the given specification and quality systems procedures.",
+			"Involved in infrastructure management and product support activities and can trouble-shoot complex problems/ issues."
+			]
+		},
+		"Experiences": {
+			"Core Experiences ": [
+			"Work experience of about 11+ yrs.",
+			"Expert in Software development life cycle or IT Infrastructure management processes and the that are required for performing day to day tasks.",
+			"Proficient in design concepts and patterns.",
+			"Understanding Software development life cycle or infrastructure management best practices / standards to be adopted by the team.",
+			"Depth of experience in multiple technologies / sub-domains."
+			],
+			"Desired Experiences": [
+			"Knowledge of system architecture components and techniques patterns or infrastructure architecture components (platforms, servers, networks etc.)",
+			"Good communication, presentation, inter-personal and soft skills."
+			],
+			"Experience Count": [
+			"hai i am here",
+			"Working as Specialist System Design & Development at Verizon – San Jose, CA. from MAY 2015 to Till Date",
+			"Worked as Sr. UI Developer at PayPal - San Jose, CA. May 2014 to APR 2015.",
+			"Worked as Sr. UI/ Web Developer at National Starch and Chemical – Bridgewater, NJ. from JUN 2013 to MAR 2014.",
+			"Worked as UI / Front-End Developer at HSBC North America Inc. – New York, USA. from MAR 2012 to MAY 2013.",
+			"Worked as UI Developer at Abbott Laboratories, Colambia. from APR 2011 to FEB 2012.",
+			"Worked as UI Developer at MetLife, Charolete, NC. from DEC 2009 to FEB 2011.",
+			"Worked as UI Developer at AbbVie Inc, Dallas, TX. from APR 2008 to NOV 2009.",
+			"Worked as UI Developer at Black & Decker – India, from JAN 2007 to MAR 2008.",
+			"Worked as UI Developer at Mutual Omaha – India, NE. from AUG 2005 to DEC 2006.",
+			"Worked as UI Developer at Safeway Insurance Group – India. from MAY 2005 to JUL 200."			
+			]
+		}
+	},
+	"Education": {
+		"Design Study": ["Human Computer Interaction Design, IIT, Mumbai."],
+		"Graduation": [
+		"Completed my Post-Graduation Master of Computer Application in the year 2005 offered by Loyola College, Chennai.",
+		"Completed my Under Graduation in Bachelors of Mathematics in the year 2002 offered by Pachayappa College, Chennai."
+		],
+		"Schooling": ["Sri Ramakrishna Mission Boys Higher Secondary School, Chengalpattu. - 1999"],
+		"Vocational": ["Master Diploma in Information Technology - TATA INFOTECH"]
+	},
+	"Skills": {
+		"Web Application": [
+		"HTML5",
+		"CSS3",
+		"JavaScript",
+		"Flash","Adobe Flex"
+		],
+		"Design Tool": [
+		"Dreamweaver",
+		"Photoshop",
+		"Illustrator",
+		"Balsamiq",
+		"Flash",
+		"Flash Builder",
+		"Visual Studio 2013"
+		],
+		"Web-application Frameworks": [
+			"AngularJS",
+			"React JS",
+			"UndersoreJS",
+			"Jquery Template"
+			],
+			"DOM": [
+			"jQuery",
+			"Dojo Toolkit",
+			"MooTools",
+			"Prototype JavaScript Framework"
+			],
+			"GUI": [
+			"jQuery UI"
+			],
+			"Graphical/Visualization": [
+			"D3 JS",
+			"Kinetic.js"
+			],
+			"Template Systems": [
+			"jQuery Mobile"
+			],
+			"CSS": [
+			"Foundation", "Bootstrap",
+			"Responsive Grid System",
+			"SASS & LESS"
+			],
+		"Database":[
+			"MySQL",
+			"Oracle"
+		],
+		"Version Controls":[
+			"Git",
+			"SVN",
+			"TFS",
+			"Visual SourceSafe (VSS)"
+		],
+		"Content Management System": [
+			"Wordpress",
+			"Joomla"
+		],
+		"Methodologies":[
+			"Agile",
+			"Waterfall",
+			"Scrum"
+		],
+		"Mobile Application": [
+			"Android and iOS"
+		],
+		"Other": [
+			"C",
+			"C++",
+			"COBOL",
+			"Dot net",
+			"Java",
+			"Oracle",
+			"SQL",
+			"MS office"
+		]
+	},
+	"Projects":	[
+		{
+		"name":"Mobile Coach ",
+		"teamsize":"5",
+		"base":"Web",
+		"tools":["HTML5", "CSS3", "JQuery", "Angular JS","D3 JS", "Foundation CSS framework"],
+		"rr":"Lead the project",
+		"desc":"Call center supervisor application help to monitor their Team member with customer during calls. And he can manage or retrieve Customer details, history and account information friendly."
+		},
+		{
+		"name":"Tele Product ",
+		"teamsize":"3",
+		"base":"Web Based",
+		"tools":["HTML5", "CSS3", "JQuery", "Responsive framework"],
+		"rr":"Lead the project",
+		"desc":"Portal to display all products to customer with price tag, description and comparisons."
+		},
+		{
+		"name":"FiOS",
+		"teamsize":"2",
+		"base":"Web Based",
+		"tools":["HTML5", "CSS3", "JQuery"],
+		"rr":"Senior UI Developer",
+		"desc":"FiOS website describe the set-top-box features, program timing, schedules your program, video trailer, can buy and watch videos and much more."
+		},
+		{
+		"name":"Mobile Verizon",
+		"teamsize":"3",
+		"base":"Web Based",
+		"tools":["HTML5", "CSS3", "JQuery","JQueryUI"],
+		"rr":"Senior UI Developer",
+		"desc":"m.verizon.com which is a device framework for our customer main portal."
+		},
+		{
+		"name":"Wayright ",
+		"teamsize":"3",
+		"base":"Web Based",
+		"tools":["HTML5", "CSS3", "JQuery","Javascript"],
+		"rr":"Senior UI Developer",
+		"desc":"Graph represent data usage of each customer in the form of Monthly, Daily & Hourly based."
+		},
+		{
+		"name":"iCAD",
+		"teamsize":"2",
+		"base":"Web Based",
+		"tools":["HTML5", "CSS3", "JQuery"],
+		"rr":"Senior UI Developer",
+		"desc":"Helps customer FAQs and provide instant solution by asking question to find out exact problem. Data derive from JSON and HTML built by Jquery template."
+		},
+		{
+		"name":"VZConnection",
+		"teamsize":"5",
+		"base":"Web Based",
+		"tools":["HTML5", "CSS3", "JQuery", "Responsive"],
+		"rr":"Senior UI Developer",
+		"desc":"It is a responsive framework for user registration for employee."
+		},
+		{
+		"name":"In Home Agent",
+		"teamsize":"4",
+		"base":"Web Based",
+		"tools":["HTML5", "CSS3", "JQuery", "Javascript"],
+		"rr":"Senior UI Developer",
+		"desc":"In-Home Agent is a great do-it-yourself troubleshooting tool for all of your FiOS services � TV, Internet and Phone."
+		},
+		{
+		"name":"My Service",
+		"teamsize":"4",
+		"base":"Web Based",
+		"tools":["HTML5", "CSS3", "JQuery", "Javascript"],
+		"rr":"",
+		"desc":"Portal for all in one web application help customer in broadways to manage and user account. "
+		},
+		{
+		"name":"TV Everywhere ",
+		"teamsize":"2",
+		"base":"Web Based",
+		"tools":["HTML5", "CSS3", "JQuery", "Javascript"],
+		"rr":"UI Developer",
+		"desc":"Login screen for TV Everywhere responsive framework"
+		},
+		{
+		"name":"FiOS Quantum",
+		"teamsize":"3",
+		"base":"Web Based",
+		"tools":["HTML5", "CSS3", "JQuery", "Javascript"],
+		"rr":"UI Developer",
+		"desc":"Customer portal site which helps user login to account to manage."
+		},
+		{
+		"name":"Getting Started ",
+		"teamsize":"3",
+		"base":"Web Based",
+		"tools":["HTML5", "CSS3", "JQuery", "Javascript"],
+		"rr":"UI Developer",
+		"desc":"Guide techician support and access to setting like mailbox, voicemail, etc,."
+		},
+		{
+		"name":"Advanced Technology Support ",
+		"teamsize":"6",
+		"base":"Web Based",
+		"tools":["HTML5", "CSS3", "JQuery", "Javascript"],
+		"rr":"UI Developer",
+		"desc":"Advanced Technology Support design for supporting the FSC representatives to support their customers regarding the Set-Top-Box�s installation and setting in their home for FiOS TV. This includes the Help manuals of the STBs, Weather, Traffic, Community maintenance."
+		},
+		{
+		"name":" Widget ",
+		"teamsize":"4",
+		"base":"Web Based",
+		"tools":["HTML5", "CSS3", "JQuery", "Javascript"],
+		"rr":"UI Developer",
+		"desc":"This is a simple internal website which helps the user can install the widget and view help documents."
+		},
+		{
+		"name":"LAN Portal",
+		"teamsize":"3",
+		"base":"Web Based",
+		"tools":["HTML5", "CSS3", "JQuery", "Javascript"],
+		"rr":"UI Developer",
+		"desc":"This is a simple website for Network team. Its contain details about LAN team and self-desktop service."
+		},
+		{
+		"name":"Mercury Admin Console ",
+		"teamsize":"4",
+		"base":"Web Based",
+		"tools":["HTML5", "CSS3", "JQuery", "Javascript"],
+		"rr":"UI Developer",
+		"desc":"This website for the Set-Top-Box�s admin user. They can view their customer setting and configure the set-top-box from here."
+		},
+		{
+		"name":" Gaming Network",
+		"teamsize":"6",
+		"base":"Web Based",
+		"tools":["HTML5", "CSS3", "JQuery", "Javascript"],
+		"rr":"UI Developer",
+		"desc":" Gaming Network is an gaming website can play online, offline games."
+		},
+		{
+		"name":" IOBI ",
+		"teamsize":"3",
+		"base":"Web Based",
+		"tools":["HTML5", "CSS3", "JQuery", "Javascript"],
+		"rr":"UI Developer",
+		"desc":"This website for  desktop phone user. User can change or update their setting from here itself also."
+		},
+		{
+		"name":"Poster Design ",
+		"teamsize":"1",
+		"base":"Web Design",
+		"tools":["Photoshop", "Illustrator", "Power Point"],
+		"rr":"Lead the project",
+		"desc":"Design all event posters for  Toastmaster, PD Club and major presentations."
+		},
+		{
+		"name":"Advanced Technology Support ",
+		"teamsize":"1",
+		"base":"Web Design",
+		"tools":["Photoshop", "Illustrator"],
+		"rr":"Lead the project",
+		"desc":"Advanced Technology Support design for supporting the FSC representatives to support their customers regarding the Set-Top-Box�s installation and setting in their home for FiOS TV. This includes the Help manuals of the STBs, Weather, Traffic, Community maintenance."
+		},
+		{
+		"name":" Widget ",
+		"teamsize":"1",
+		"base":"Web Design",
+		"tools":["Photoshop", "Illustrator"],
+		"rr":"Lead the project",
+		"desc":"This is a simple internal website which helps the user can install the widget and view help documents."
+		},
+		{
+		"name":"LAN ",
+		"teamsize":"1",
+		"base":"Web Design",
+		"tools":["Photoshop", "Illustrator"],
+		"rr":"Lead the project",
+		"desc":"This is a simple website for Network team. Its contain details about LAN team and self-desktop service."
+		},
+		{
+		"name":"Presentation ",
+		"teamsize":"1",
+		"base":"Web Design",
+		"tools":["Photoshop", "Illustrator", "Power Point"],
+		"rr":"Lead the project",
+		"desc":"presentation for different project the wireframes, demos, prototype for scratch level"
+		}
+	],
+	"Achievements":
+	{	
+	"Awards": [
+			"Good contribution Recognition Award.",
+			"U deserve award twice.",
+			"'On the Spot-Award' four times.",
+			"ATS Performance Excellence award "			
+		]
+	},
+	"Personal":
+	{
+		"Name": "Rajarathinam Maduram",
+		"DOB": "8th October 1981",
+		"Marital Status": "Married",
+		"Languages": "English, Tamil, Hindi",
+		"Mobile": "858-276-9291",
+		"Email": "rajarathinaam@gmail.com",
+		"VISA": "H1B valid till 09/2008"
+	}
+
+}
